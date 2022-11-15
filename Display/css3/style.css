@@ -1,0 +1,48 @@
+body {
+    background-color: lightgray;
+}
+
+.wrapper {
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 1200px;
+    height: 85%;
+    /* Overflow Auto : Otomatis menambahkan scroll untuk melihat konten, Hidden : Menyebunyikan konten sesuai lebar frame, Scroll : Menambahkan Scroll sebanyak apapun kontennya */
+}
+
+.wrapper p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper .box-1 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    overflow: auto;
+    display: inline-block;
+}
+
+.wrapper .box-2 {
+    width: 150px;
+    height: 150px;
+    background-color: bisque;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.wrapper .box-3 {
+    width: 150px;
+    height: 150px;
+    background-color: greenyellow;
+    overflow: scroll;
+    display: inline-block;
+}
+
+.wrapper .box-4 {
+    width: 70px;
+    height: 150px;
+    background-color: aquamarine;
+    overflow-x: scroll;
+    display: inline-block;
+}

@@ -1,0 +1,100 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: pink;
+}
+
+.wrapper .bg {
+    background-color: rgb(142, 249, 244);
+    width: 100%;
+    height: 50%;
+    margin : auto;
+}
+
+.wrapper .box-1 h2 {
+    text-align: center;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    background: rgb(238, 239, 160);
+}
+
+/* Box Yang Pertama Box-1 */
+.wrapper .box-1 {
+    font-family: sans-serif;
+    width: 800px;
+    height: 322px;
+    border: 5px solid white;
+    background-color: lightgray;
+    margin: -190px auto;
+}
+
+.wrapper .box-2 {
+    font-family: sans-serif;
+    margin-left: 332.5px;
+    margin-top: 335px;
+    width: 800px;
+    height: 322px;
+    border: 5px solid white;
+    background-color: lightcyan;
+}
+
+.wrapper .foto {
+    padding-left: 0px;
+    padding-top: 25px;
+    width: 190px;
+    height: 293.5px;
+    margin-top: -25;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.biodata{
+    margin: 50px;
+    text-align: left;
+    margin-left: 680px;
+    margin-top: -280px;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #821082;
+}
+
+.wrapper .judul h2 {
+    width: 450px;
+    margin-left: 541px;
+    background-color: lightgray;
+    color: lightgoldenrodyellow;
+    margin-top: -120px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.wrapper .biodata h2{
+    font-size: xx-large;
+    color: purple;
+}
+
+.wrapper .biodata h5{
+    background-color: lightgray;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 115px;
+    padding-right: 100px;
+}
+
+.wrapper .biodata{
+    background-color: red;
+    height: 0px;
+    margin-left: 200px;
+    margin-top: -304px;
+    margin-right: -5px;
+    padding-left: 340px;
+    width: 500px;
+}
+
+.wrapper .judul-2 {
+    
+}

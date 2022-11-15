@@ -1,0 +1,85 @@
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: #eaeaea;
+    background-image:  url();
+    color: #333333;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.header {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.header .judul {
+    color: darkslategrey;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: palevioletred;
+    padding: 5px;
+}
+
+.header a:hover {
+    background-color: pink;
+    color: black;
+    border-radius: 5px;
+}
+
+.hero {
+    height: 270px;
+    background-image: url(img/foto.png);
+    background-size: cover;
+    background-position: 0 - 100px;
+    border-top: 5px solid lightblue;
+    border-bottom: 5px solid pink;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    color: darkslategrey;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.content .penulis {
+    font-size: 11px;
+    font-weight: -5px;
+}
+
+.content .penulis a {
+    color: salmon;
+    text-decoration: none;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.footer {
+    background-color: lightgrey;
+}
+
+.footer .copy {
+    color: lightslategrey;
+    text-align: center;
+    font-size: 12px;
+}
